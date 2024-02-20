@@ -34,9 +34,6 @@ public class Main {
         laptopList.add(laptop1);
         laptopList.add(laptop2);
 
-
-
-
         Session session= FactorConfiguration.getInstance().getSession();
         Transaction transaction = session.beginTransaction();
 
